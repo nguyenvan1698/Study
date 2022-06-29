@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
+#define WAY 1
 
+#if WAY==1
+// the way 1 is using back tracking to resolve
 void printResult(vector<int> a) {
     while (!a.empty()) {
         cout << a.back() << ",";
@@ -37,9 +39,13 @@ void findway(int nu, int de) {
     cout << "total way:" <<way;
 }
 
-
 int main() {
     findway(6, 3);
     return 0;
 
 }
+#else
+// the 2th way using original recursive to resolve
+
+#endif
+
