@@ -1,0 +1,3 @@
+sliding windown pattern:
+
+- some remarknote when using sliding windown pattern:https://medium.com/@timpark0807/leetcode-is-easy-sliding-window-c44c11cc33e1
